@@ -30,7 +30,7 @@
 - Saving user info to db via user accounts
 **Wireframes**
 ---
-![alt text](../erd.png)
+![alt text](erd.png)
 ![alt text](public/images/box.png)
 ![alt text](public/images/login.png)
 ![alt text](public/images/dashboatd.png)
