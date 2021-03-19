@@ -31,14 +31,12 @@
 **Wireframes**
 ---
 ![alt text](erd.png)
-![alt text](public/images/box.png)
-![alt text](public/images/login.png)
-![alt text](public/images/dashboatd.png)
+
 **Database ERD**
 ---
 ![alt text](public/images/erdme.png)
-**RESTful routing chart**
+**CRUD routing chart**
 ---
 ![alt text](public/images/routes.png)
 **Installation**
-- nodemon index.js
+- nnpm install 
