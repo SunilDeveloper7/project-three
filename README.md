@@ -10,12 +10,14 @@
 ### The app is based off of the [Teleport](https://developers.teleport.org/) API
 
 **Wireframes**
-![alt text](public/images/login.png)
-![alt text](public/images/dashboatd.png)
-
+![alt text](introduction.png)
+![alt text](login.png)
+![alt text](new_account.png)
+![alt text](search.png)
 **User stories**
 #### App users
 - User(s) are able to open the app and run city searches
+-  User(s) able to what information I will see when I search for a city.
 - User(s) view information on specified cities based on defined parameters.
 - User(s) can make personal experience statement when they visit a city  after creating an account.
 - enjoy life to it's fullest
@@ -28,7 +30,7 @@
 - Node.js ORM - Mongoose
 **MVP goals**
 ---
-- Setup app with fetches to API
+- Setup app with requests to API
 - Ability to create user account and login
 - Adding user comments about city
 **Stretch goals**
@@ -37,6 +39,7 @@
 - Email notification - To let users know who wins
 - Saving user info to db via user accounts
 
+![alt text](parameters.png)
 ---
 ## **Database ERD:**
 
