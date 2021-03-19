@@ -17,8 +17,8 @@
 #### App users
 - User(s) are able to open the app and run city searches
 - User(s) view information on specified cities based on defined parameters.
-- User(s) can make personal state of affairs after creating an account.
-        - Upon selection, users will be given option to re-direct to streaming service company
+- User(s) can make personal experience statement when they visit a city  after creating an account.
+- enjoy life to it's fullest
 
 **Technologies used (including APIs)**
 
