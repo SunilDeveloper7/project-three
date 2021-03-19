@@ -10,10 +10,6 @@
 ### The app is based off of the [Teleport](https://developers.teleport.org/) API
 
 **Wireframes**
-![alt text](introduction.png)
-![alt text](login.png)
-![alt text](new_account.png)
-![alt text](search.png)
 **User stories**
 #### App users
 - User(s) are able to open the app and run city searches
@@ -22,6 +18,10 @@
 - User(s) can make personal experience statement when they visit a city  after creating an account.
 - enjoy life to it's fullest
 
+![alt text](introduction.png)
+![alt text](login.png)
+![alt text](new_account.png)
+![alt text](search.png)
 **Technologies used (including APIs)**
 
 ![alt text](tech.png)
@@ -34,6 +34,9 @@
 - Ability to create user account and login
 - Adding user comments about city
 **Stretch goals**
+
+#### Many are possible
+![alt text](possible_stretch.png)
 ---
 - Ability to Search for movies
 - Email notification - To let users know who wins
@@ -48,6 +51,5 @@
 ![alt text](public/images/erdme.png)
 **RESTful routing chart**
 ---
-![alt text](public/images/routes.png)
 **Installation**
 - npm install
