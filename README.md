@@ -9,8 +9,11 @@
 5. Housing
 ### The app is based off of the [Teleport](https://developers.teleport.org/) API
 
-**User stories**
+**Wireframes**
+![alt text](public/images/login.png)
+![alt text](public/images/dashboatd.png)
 
+**User stories**
 #### App users
 - User(s) are able to open the app and run city searches
 - User(s) view information on specified cities based on defined parameters.
@@ -19,6 +22,7 @@
 
 **Technologies used (including APIs)**
 
+![alt text](tech.png)
 - This is a MERN app that fetches data using the [Teleport](https://developers.teleport.org/) API's resources that are provided via Json
 - Database - MongoDB.
 - Node.js ORM - Mongoose
@@ -33,17 +37,14 @@
 - Email notification - To let users know who wins
 - Saving user info to db via user accounts
 
-**Wireframes**
 ---
+## **Database ERD:**
+
 ![alt text](erd.png)
-![alt text](public/images/box.png)
-![alt text](public/images/login.png)
-![alt text](public/images/dashboatd.png)
-**Database ERD**
 ---
 ![alt text](public/images/erdme.png)
 **RESTful routing chart**
 ---
 ![alt text](public/images/routes.png)
 **Installation**
-- nodemon index.js
+- npm install
