@@ -28,6 +28,8 @@ li {
 }
 </style>
 
+
+
 # <center>***Info City***</center>
 ***
 ### <center> ***"Info City"*** is a social network site themed around local information. It helps you decide and help others decide where to live next, enjoy a vacation or just have a general idea about an area ' users. The recommendation is based on a set of parameters</center>
