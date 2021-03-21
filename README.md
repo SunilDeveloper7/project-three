@@ -1,55 +1,62 @@
-# Info City
-***
+<style>
+body {
+   background:rgba(200,200,200, 0.03);
+   box-shadow: inset 0 0 100px rgba(255,255,255,0.2),inset 0 0 10px rgba(100,25,225,0.28);
+   text-shadow: 1px 1px 13px black;
+   
+}
+img {
+   border-radius: 20px;
+    box-shadow: 0 0 90px black;
+}
+h1 {
+   box-shadow: 0 0 900px grey;
+   font-family: chalkboard;
+   color: rgba(20,127,220, 0.8);
+   border-radius: 10px;
+   padding-top: 10px;
+}
+h2 {
+   padding-top: 50px;
+   color: rgba(20,127,220, 0.9);
+}
+h3 {
+   color: rgba(20,110,250)
+}
+li {
+   color: rgba(20,127,220, 0.8);
+}
+</style>
 
-### **Info City** is an app that helps you decide where to live next or even enjoy their next vacation ' users. The recommendation is based on a set of parameters
+# <center>***Info City***</center>
+***
+### <center> ***"Info City"*** is a social network site themed around local information. It helps you decide and help others decide where to live next, enjoy a vacation or just have a general idea about an area ' users. The recommendation is based on a set of parameters</center>
+
 1. Economy
 2. Environmental Quality
 3. User location
 4. Cost of Living
 5. Housing
-### The app is based off of the [Teleport](https://developers.teleport.org/) API
+6. Crime
 
-**Wireframes**
-**User stories**
-#### App users
+~ WIREFRAME IMAGE HERE!
+
+***
 - User(s) are able to open the app and run city searches
--  User(s) able to what information I will see when I search for a city.
+
+~ WIREFRAME IMAGE HERE!
+
+-  User(s) able to share information I will see when I search for a city.
+
+~ WIREFRAME IMAGE HERE!
+
 - User(s) view information on specified cities based on defined parameters.
+
+~ WIREFRAME IMAGE HERE!
+
 - User(s) can make personal experience statement when they visit a city  after creating an account.
-- enjoy life to it's fullest
 
-![alt text](introduction.png)
-![alt text](login.png)
-![alt text](new_account.png)
-![alt text](search.png)
-**Technologies used (including APIs)**
+~ WIREFRAME IMAGE HERE!
 
+## <center>tech we plan on using</center>
 ![alt text](tech.png)
-- This is a MERN app that fetches data using the [Teleport](https://developers.teleport.org/) API's resources that are provided via Json
-- Database - MongoDB.
-- Node.js ORM - Mongoose
-**MVP goals**
----
-- Setup app with requests to API
-- Ability to create user account and login
-- Adding user comments about city
-**Stretch goals**
-
-#### Many are possible
-![alt text](possible_stretch.png)
----
-- Ability to Search for movies
-- Email notification - To let users know who wins
-- Saving user info to db via user accounts
-
-![alt text](parameters.png)
----
-## **Database ERD:**
-
-![alt text](erd.png)
----
-![alt text](public/images/erdme.png)
-**RESTful routing chart**
----
-**Installation**
-- npm install
