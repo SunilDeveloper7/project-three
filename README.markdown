@@ -64,3 +64,6 @@ Josh: Backend/Front Support & Git Manager
 #### ***User's Profile***
 ![User Profile Page](images/User_Profile.png)
 
+#### ***User's Profile***
+![User Profile Page](images/ERD.png)
+
