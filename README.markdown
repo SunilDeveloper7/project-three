@@ -4,7 +4,7 @@ Codenews is a social news platform focusing on computer science, software-engine
 
 
 ## **User Stories**
-## **Most Viable Product**
+## **Minimum Viable Product**
 - The CodeNews homepage will display user content along with a navbar that features options for registering an account, submitting a post, and features for the main page and Q&A section.
 
 #### ***As a general user***
