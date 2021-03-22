@@ -54,6 +54,8 @@ Josh: Backend/Front Support & Git Manager
 
 
 ## **Wireframes**
+#### ***Routes***
+![Homepage](images/Routes.png)
 
 #### ***Homepage***
 ![Homepage](images/Homepage.png)
@@ -64,6 +66,6 @@ Josh: Backend/Front Support & Git Manager
 #### ***User's Profile***
 ![User Profile Page](images/User_Profile.png)
 
-#### ***User's Profile***
+#### ***ERD***
 ![User Profile Page](images/ERD.png)
 
