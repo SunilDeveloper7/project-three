@@ -52,3 +52,15 @@ Josh: Backend/Front Support & Git Manager
 ## **API(S)**
 - [The Muse Jobs Api](https://www.themuse.com/developers/api/v2?ref=apilist.fun) - free API for job searching and posting
 
+
+## **Wireframes**
+
+#### ***Homepage***
+![Homepage](images/Homepage.png)
+
+#### ***Login Page***
+![Login Page](images/Login.png)
+
+#### ***User's Profile***
+![User Profile Page](images/User_Profile.png)
+
