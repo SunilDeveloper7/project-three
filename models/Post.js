@@ -3,19 +3,22 @@ const mongoose = require("mongoose");
 
 // create the schema
 const UserSchema = new mongoose.Schema({
-  post_id: {
-    type: Int,
+  url: {
+    type: String,
+  },
+  title: {
+    type: String,
   },
   user_id: {
     type: Int,
   },
-  comment_content: {
-    type: string,
+  post_content: {
+    type: String,
   },
-  comment_upvote: {
-    type: Int,
+  post_upvote: {
+    type: String,
   },
 });
 
 // export the model
-module.exports = Comment = mongoose.model("users", UserSchema);
+module.exports = Post = mongoose.model("users", UserSchema);
