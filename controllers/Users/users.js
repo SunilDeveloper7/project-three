@@ -1,12 +1,12 @@
 const router = require('express').Router()
-const User = require('../../models/User.js')
+// const User = require('../../models/User.js')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const authLockedRoute = require('./authLockedRoute')
 
 // GET /users -- test endpoint
 router.get('/', (req, res) => {
-  res.json({ msg: 'hello from users!' })
+res.json({ msg: 'hello from users!' })
 })
 
 // POST /users/register -- CREATE a new user 
@@ -27,7 +27,6 @@ try {
 
     // CREATE a user in the db
     const newUser = new User({
-    name: req.body.name,
     email: req.body.email,
     password: hashedPassword
     })
@@ -36,7 +35,6 @@ try {
 
     // make a jwt payload 
     const payload = {
-      name: newUser.name,
       email: newUser.email,
       id: newUser.id
     }
@@ -73,7 +71,6 @@ router.post('/login', async (req, res) => {
 
     // create jwt token
     const payload = {
-      name: foundUser.name,
       email: foundUser.email,
       id: foundUser.id
     }

@@ -25,7 +25,7 @@ app.get('/',(req,res)=> {
 
 
 //controllers
-app.use('controllers/users', require('./controllers/users.js'))
+app.use('/Users/users', require('/controllers/Users/users.js'))
 
 
 //Listen to server by telling the port 
